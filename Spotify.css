@@ -1,0 +1,365 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+}
+.sidebar{
+   background-color: black;
+   height: 95vh;
+   width: 17rem;
+   margin: 0.5rem;
+   overflow: hidden;
+}
+.main{
+    background-color:#1b1a1a;
+    overflow: auto;
+    flex: 1;
+    border-radius: 15px;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+}
+.upperBox{
+    height: 15%;
+    background-color: #141313;
+    padding: 0.5rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+    border-radius: 15px;
+
+}
+.box-option{
+    height: 3.5rem;
+    color: white;
+    display: flex;
+    font-weight: 10px;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.lowerbox .box-option{
+    height: 2rem;
+    padding-left: 1.2rem;
+}
+
+.box-option:hover{
+    opacity: 1;
+}
+.box-option p{
+    margin-left: 1.5rem;
+}
+i{
+    font-size: 1.3rem;
+}
+img{
+    height:1.2rem ;
+}
+.shift{
+    margin-left: 6.9rem;
+}
+
+.lowerbox{
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.45rem;
+    height: 100%;
+    background-color: #141313;
+    border-radius:  15px; ;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5rem;
+    margin-top: 1.3rem;
+    
+    width: 100%;
+    background-color:#242424;
+    border-radius: 15px;
+    color: white;
+    
+    padding: 0.5rem 0.75rem 0.75rem;
+}
+.p1{
+    font-size: 1rem;
+    font-weight: 10px;
+}
+.p2{
+    font-size: 0.75rem;
+    font-weight: 7px;
+
+}
+
+.badge{
+    margin-top: 1.5rem;
+    height: 2rem;
+    width: 9rem;
+    background-color: white;
+    font-size: 0.8rem;
+    font-weight: 8px;
+    color: black;
+    border-radius: 50px;
+    padding: 0px 15px;
+    
+}
+
+.leftbtn ,.rightbtn{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20px;
+    background-color: rgb(17, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.optionright .badge{
+    margin-top: 0px;
+    padding: 0.6rem 0.5rem;
+    border-radius: 70px;
+
+
+}
+.black-badge{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.2rem;
+}
+.optionright{
+    display: flex;
+    justify-content: space-evenly;
+    width: 26.5rem;
+    
+}
+.optionleft{
+    display: flex;
+    justify-content: space-around;
+    width: 5rem;
+}
+.btn{
+    background-color: rgb(58, 56, 56);
+    color: white;
+    height: 2rem;
+    padding: 0.5rem 0.6rem;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    transition: 0.2s;
+    
+
+}
+.option2{
+    padding: 1rem 1.2rem;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.heading{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+.main-card{
+    margin-top: 1.1rem;
+    margin-right: 1.4rem;
+    height: 17rem;
+    width: 12rem;
+    background-color: rgb(23, 22, 22);
+    line-height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.8rem;
+    border-radius: 7px;
+    transition: 0.2s ;
+}
+.card-body p{
+    
+    font-weight: normal;
+    font-size: 0.85rem;
+    line-height: 1rem;
+    margin-top: 0.5rem;
+}
+#imgS{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 7px;
+}
+.card-body{
+    height: 28%;
+    margin-top: 1rem;
+}
+.headWcard{
+    margin:1.3rem 1.2rem;
+}
+.leftshift{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 4px;
+    font-size: 0.85rem;
+    padding: 0.35rem 1rem ;
+    justify-content: space-between;
+}
+
+.footer-right{
+    width: 25%;
+}
+
+.image img{
+    height:2.2rem;
+    background-size: cover;
+    border-radius: 2px;
+    
+}
+#smallfont{
+    font-size:  0.6rem;
+    opacity: 0.6;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.footer-right{
+    width: 25%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    color: white;
+    opacity: 4px;
+    font-size: 0.85rem;
+    padding: 0.35rem 4rem 0.25rem 1rem ;
+}
+.footer-right i{
+    font-size:  1rem;
+    opacity: 0.6;
+    margin: 0rem 1.5rem 0rem 0rem;
+
+}
+.footer-mid{
+    width: 50%;
+}
+.footer-mid-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 14rem 0.15rem 14rem;
+    margin-bottom: 0.25rem;
+    
+
+
+}
+.footer-mid-top img{
+    height: 1rem;
+    opacity:0.5;
+}
+.footer-mid-bottom{
+    color: white;
+    display: flex;
+    justify-content:center;
+    font-size: 0.8rem;
+    
+}
+.progress-bar{
+    width: 65%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.progress-bar::-webkit-slider-runnable-track{
+    border-radius: 15px;
+    height: 0.2rem;
+    background-color: #ddd;
+    margin:0rem 0.3rem   ;
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width:1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+   
+}
+.music-bar{
+    width: 32%;
+    appearance: none;
+    background-color: transparent;
+}
+.music-bar::-webkit-slider-runnable-track{
+    height: 0.25rem;
+    background-color: #ddd;
+    border-radius: 11px;
+}
+.music-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 0.85rem;
+    width: 0.85rem;
+    background-color: #1b82d7;
+    border-radius: 50%;
+    margin-top: -4px;
+    cursor: pointer;
+
+}
+.touch-card:hover{
+        background-color: rgb(51, 50, 50);
+        
+}
+.visible:hover{
+    opacity: 1;
+}
+.footer-left i{
+    opacity: 0.5;
+}
+.lower-bar{
+    width: 100%;
+    margin: 10rem 0rem 7rem 0rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    height: 0.15rem;
+    width: 90%;
+    background-color:#3b3535;
+
+}
+
+
